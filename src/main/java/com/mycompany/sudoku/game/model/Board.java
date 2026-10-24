@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.sudoku.game;
+package com.mycompany.sudoku.game.model;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -59,6 +59,7 @@ public class Board {
         this.random = new Random();
         this.width = 9;
         this.heigth = 9;
+        genBoard();
     }
 
     public List<List<Integer>> getMatriz() {

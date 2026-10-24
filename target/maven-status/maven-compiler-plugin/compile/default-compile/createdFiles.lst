@@ -1,3 +1,5 @@
 com\mycompany\sudoku\game\Player.class
-com\mycompany\sudoku\game\Board.class
 com\mycompany\sudoku\game\SudokuGame.class
+com\mycompany\sudoku\game\FrBoard.class
+com\mycompany\sudoku\game\TMBoard.class
+com\mycompany\sudoku\game\Board.class

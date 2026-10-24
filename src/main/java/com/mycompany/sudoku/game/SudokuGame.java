@@ -3,6 +3,8 @@
  */
 package com.mycompany.sudoku.game;
 
+import com.mycompany.sudoku.game.view.FrBoard;
+
 /**
  *
  * @author Henri
@@ -10,9 +12,7 @@ package com.mycompany.sudoku.game;
 public class SudokuGame {
 
     public static void main(String[] args) {
-        Board board = new Board();
-        board.genBoard();
-        board.randomEmptys(45);
-        board.printBoard();
+        FrBoard boardScreen = new FrBoard();
+        boardScreen.setVisible(true);
     }
 }
